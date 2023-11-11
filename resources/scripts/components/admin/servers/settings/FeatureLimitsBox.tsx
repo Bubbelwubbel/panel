@@ -16,21 +16,21 @@ export default () => {
                     name={'featureLimits.allocations'}
                     label={'Allocation Limit'}
                     type={'number'}
-                    description={'The total number of allocations a user is allowed to create for this server.'}
+                    description={'The total number of allocations a user is allowed to create for this server. -1 is unlimited allocation slots.'}
                 />
                 <Field
                     id={'featureLimits.backups'}
                     name={'featureLimits.backups'}
                     label={'Backup Limit'}
                     type={'number'}
-                    description={'The total number of backups that can be created for this server.'}
+                    description={'The total number of backups that can be created for this server. -1 is unlimited backup slots.'}
                 />
                 <Field
                     id={'featureLimits.databases'}
                     name={'featureLimits.databases'}
                     label={'Database Limit'}
                     type={'number'}
-                    description={'The total number of databases a user is allowed to create for this server.'}
+                    description={'The total number of databases a user is allowed to create for this server. -1 is unlimited database slots.'}
                 />
             </div>
         </AdminBox>
